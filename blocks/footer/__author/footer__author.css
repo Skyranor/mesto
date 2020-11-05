@@ -1,0 +1,21 @@
+.footer__author {
+  max-width: 880px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #545454;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1079px) {
+  .footer__author {
+    max-width: 581px;
+  }
+}
+
+@media screen and (max-width: 618px) {
+  .footer__author {
+    max-width: calc(100% - 38px);
+  }
+}
