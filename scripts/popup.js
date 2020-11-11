@@ -14,14 +14,13 @@ let jobInput = document.querySelector('.popup__input_type_description');
 let profileName = document.querySelector('.profile__name');
 let profileDescription = document.querySelector('.profile__description');
 
-//добавляем имя и информацию о себе в поле для ввода
-nameInput.value = profileName.textContent;
-jobInput.value = profileDescription.textContent;
-
 // функция открытия попапа
 function showPopup() {
   popup.classList.add('popup_opened');
   popup.removeEventListener('click', showPopup);
+  //добавляем имя и информацию о себе в поле для ввода
+  nameInput.value = profileName.textContent;
+  jobInput.value = profileDescription.textContent;
 }
 
 // функция закрытия попапа
@@ -38,6 +37,7 @@ function popupClickHandler(event) {
 
 // Обработчик «отправки» формы
 function submitForm(event) {
+
   // запрет перезагрузки страницы
   event.preventDefault();
   //добавление новых значений
