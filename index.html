@@ -11,7 +11,7 @@
 <body class="page">
   <div class="page__container">
     <header class="header">
-      <img class="header__logo" src="./images/logo.png" alt="Логотип">
+      <img class="header__logo" src="./images/logo.svg" alt="Логотип">
     </header>
     <main class="content">
       <section class="profile">
@@ -20,12 +20,12 @@
           <div class="profile__info-wrapper">
             <div class="profile__name-wrapper">
               <h1 class="profile__name">Жак-Ив Кусто</h1>
-              <button class="profile__edit-button"></button>
+              <button class="profile__edit-button" type="button" aria-label="Изменить"></button>
             </div>
             <p class="profile__description">Исследователь океана</p>
           </div>
         </div>
-        <button class="profile__add-button"></button>
+        <button class="profile__add-button" type="button" aria-label="Добавить"></button>
       </section>
       <section class="cards">
         <ul class="cards__items">
@@ -33,35 +33,35 @@
             <img class="card__image" src="./images/karachayevsk.jpg" alt="Карачаевск">
             <div class="card__content">
               <h2 class="card__title">Карачаевск</h2>
-              <button class="card__like-button"></button>
+              <button class="card__like-button" type="button" aria-label="Лайк"></button>
             </div>
           </li>
           <li class="card">
             <img class="card__image" src="./images/mountain-elbrus.jpg" alt="Гора Эльбрус">
             <div class="card__content">
               <h2 class="card__title">Гора Эльбрус</h2>
-              <button class="card__like-button"></button>
+              <button class="card__like-button" type="button" aria-label="Лайк"></button>
             </div>
           </li>
           <li class="card">
             <img class="card__image" src="./images/dombay.jpg" alt="Домбай">
             <div class="card__content">
               <h2 class="card__title">Домбай</h2>
-              <button class="card__like-button"></button>
+              <button class="card__like-button" type="button" aria-label="Лайк"></button>
             </div>
           </li>
           <li class="card">
             <img class="card__image" src="./images/mountain-elbrus.jpg" alt="Гора Эльбрус">
             <div class="card__content">
               <h2 class="card__title">Гора Эльбрус</h2>
-              <button class="card__like-button"></button>
+              <button class="card__like-button" type="button" aria-label="Лайк"></button>
             </div>
           </li>
           <li class="card">
             <img class="card__image" src="./images/dombay.jpg" alt="Домбай">
             <div class="card__content">
               <h2 class="card__title">Домбай</h2>
-              <button class="card__like-button"></button>
+              <button class="card__like-button" type="button" aria-label="Лайк"></button>
             </div>
           </li>
           <li class="card">
@@ -69,7 +69,7 @@
             <div class="card__content">
               <h2 class="card__title">
                 Карачаево-Черкесия</h2>
-              <button class="card__like-button"></button>
+              <button class="card__like-button" type="button" aria-label="Лайк"></button>
             </div>
           </li>
         </ul>
@@ -80,11 +80,11 @@
     </footer>
     <div class="popup">
       <div class="popup__container">
-        <button class="popup__close-button" type="button"></button>
+        <button class="popup__close-button" type="button" aria-label="Закрыть"></button>
         <form class="popup__form">
           <h3 class="popup__edit-profile">Редактировать профиль</h3>
-          <input class="popup__input popup__input_type-name" type="text" value="Жак-Ив Кусто">
-          <input class="popup__input popup__input_type-description" type="text" value="Исследователь океана">
+          <input class="popup__input popup__input_type_name" type="name">
+          <input class="popup__input popup__input_type_description" type="job">
           <button class="popup__submit-button" type="submit">Сохранить</button>
         </form>
 

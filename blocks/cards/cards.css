@@ -13,6 +13,7 @@
 @media screen and (max-width: 800px) {
   .cards {
     max-width: calc(100% - 38px);
+    padding-bottom: 48px;
   }
 }
 
